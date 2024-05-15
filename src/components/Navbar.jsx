@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from '../assets/logo.png'
 import Image from "next/image";
 import Link from "next/link";
 import styles from "@/styles/styles";
@@ -19,7 +18,7 @@ const Navbar = () => {
       <div className={`${styles.width} ${styles.padding} py-5 relative z-10`}>
         <div className="flex justify-between items-center">
           <div>
-            <Image src={logo} alt="" className="w-[100px] md:w-[150px]" />
+            <Image src="/logo.png" alt="" className="w-[100px] md:w-[150px]" />
           </div>
 
           <div className="flex gap-5 md:gap-14 items-center">
