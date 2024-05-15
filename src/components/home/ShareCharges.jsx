@@ -18,10 +18,10 @@ const ShareCharges = () => {
           Share Charges to <br /> Discover Better Options
         </h4>
         <p className={`${styles.paragraph} md:w-4/5`}>
-          We understand that managing medical bills can be a hassle. That's why
+          {`We understand that managing medical bills can be a hassle. That's why
           we've created a simple and secure way for users to upload and manage
           their bills. With our Bill Upload feature, you can easily keep track
-          of your medical expenses.
+          of your medical expenses.`}
         </p>
 
         <ul className="mt-6 mb-10">

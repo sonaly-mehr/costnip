@@ -10,7 +10,7 @@ const Spotlight = () => {
     <div className={`${styles.width} ${styles.padding}`}>
       <div className="text-center mt-[50px]">
         <h2 className="text-darkBlue font-bold leading-[45px] md:leading-[70px] text-[38px] md:text-6xl">
-          Costnip's Health <br />{" "}
+          {`Costnip's Health `}<br />
           <span className="text-primary">Spotlight</span>
         </h2>
         <p className="text-[#555555] leading-5 text-xs md:text-sm mt-3">

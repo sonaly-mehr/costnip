@@ -14,8 +14,8 @@ const UploadBills = () => {
           Upload Your Medical <br /> Bills Anonymously
         </h4>
         <p className="text-[#B6B7C5] text-xs w-[90%] leading-5">
-          Anonymous uploads are quick and easy, and you don't need to create an
-          account to use this option.
+          {`Anonymous uploads are quick and easy, and you don't need to create an
+          account to use this option.`}
         </p>
       </div>
 
