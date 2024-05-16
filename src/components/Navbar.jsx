@@ -5,6 +5,7 @@ import styles from "@/styles/styles";
 import Button from "./Button";
 import { CgMenuRight } from "react-icons/cg";
 import { AiOutlineClose } from "react-icons/ai";
+import logo from '../../public/logo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -18,7 +19,7 @@ const Navbar = () => {
       <div className={`${styles.width} ${styles.padding} py-5 relative z-10`}>
         <div className="flex justify-between items-center">
           <div>
-            <Image src="/logo.png" alt="" className="w-[100px] md:w-[150px]" />
+            <Image src={logo} alt="" width={100} height={100} className="w-[100px] md:w-[150px] h-auto" />
           </div>
 
           <div className="flex gap-5 md:gap-14 items-center">
